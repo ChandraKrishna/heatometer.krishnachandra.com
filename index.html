@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141414">
+  <meta name="description" content="HeatoMeter monitors battery temperature, screen time, and phone-health trends with private, on-device insights.">
+  <meta name="author" content="Krishna Chandra">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HeatoMeter — Battery temperature & phone health">
+  <meta property="og:description" content="Monitor battery temperature, screen time, and phone-health trends with private, on-device insights.">
+  <meta property="og:url" content="https://chandrakrishna.github.io/HeatoMeterWebsite/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://chandrakrishna.github.io/HeatoMeterWebsite/">
+  <title>HeatoMeter — Battery temperature & phone health</title>
+  <link rel="icon" href="assets/icon-512.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="gallery-fix.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="HeatoMeter home">
+      <img src="assets/icon-512.png" alt="" width="42" height="42">
+      <span>HeatoMeter</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#features">Features</a>
+      <a href="#insights">Health insights</a>
+      <a href="#screens">Screens</a>
+      <a href="#play-info">Play Store info</a>
+      <a class="nav-cta" href="#download">Get HeatoMeter</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-one"></div><div class="hero-glow hero-glow-two"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Version 2.1.0 · Built for Android</p>
+        <h1 id="hero-title">Know when your phone is <em>feeling the heat.</em></h1>
+        <p class="hero-lead">Battery temperature, screen-time balance, and practical phone-health guidance—presented clearly and processed privately on your device.</p>
+        <div class="hero-actions" id="download">
+          <button class="play-button" type="button" disabled aria-label="HeatoMeter is coming soon to Google Play">
+            <svg viewBox="0 0 28 31" aria-hidden="true"><path fill="#00d6ff" d="M1.2 1.5 16.4 15 1.1 29.5c-.7-.7-1.1-1.8-1.1-3V4.4c0-1.2.4-2.2 1.2-2.9Z"/><path fill="#00f076" d="m16.4 15 4.8-4.3L5.1.9C3.5 0 2.2.2 1.2 1.5L16.4 15Z"/><path fill="#ffd400" d="m16.4 15 4.8 4.3-16.1 9.8c-1.6 0-3-.2-4-1.6L16.4 15Z"/><path fill="#ff4054" d="m21.2 10.7 5 3c1.8 1 1.8 2.6 0 3.6l-5 3-4.8-4.3 4.8-4.3Z"/></svg>
+            <span><small>Coming soon on</small>Google Play</span>
+          </button>
+          <a class="text-link" href="#screens">Explore the app <span>↘</span></a>
+        </div>
+        <div class="trust-row"><span>● Local-first analysis</span><span>● No account required</span><span>● Android 6.0+</span></div>
+      </div>
+      <div class="hero-device reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="phone"><div class="speaker"></div><img src="assets/screenshots/01-dashboard.png" alt="HeatoMeter dashboard showing battery temperature and screen-time information"></div>
+        <div class="float-card temp-card"><span class="mini-icon">♨</span><div><small>LIVE READING</small><strong>Battery temperature</strong></div></div>
+        <div class="float-card private-card"><span class="mini-icon">✓</span><div><small>PRIVATE BY DESIGN</small><strong>Processed on device</strong></div></div>
+      </div>
+    </section>
+
+    <section class="signal-strip" aria-label="App highlights">
+      <div><strong>Real-time</strong><span>temperature monitoring</span></div>
+      <div><strong>7 days</strong><span>of temperature history</span></div>
+      <div><strong>Top 10</strong><span>foreground app usage</span></div>
+      <div><strong>1–12 h</strong><span>screen-time limits</span></div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading reveal"><p class="eyebrow">Everyday clarity</p><h2>Useful signals.<br><span>Not technical noise.</span></h2><p>HeatoMeter turns Android’s available battery, thermal, charging, and usage signals into clear information you can act on.</p></div>
+      <div class="feature-grid">
+        <article class="feature feature-wide reveal"><div class="feature-copy"><span class="number">01</span><h3>See heat as it happens</h3><p>Follow live battery temperature on a simple color gauge, with configurable alerts and adaptive monitoring that responds faster while charging or warming.</p><ul><li>Current temperature and daily range</li><li>Charging, voltage, level, and health</li><li>Home-screen widget and persistent notification</li></ul></div><div class="mini-chart" aria-hidden="true"><span>COOL</span><svg viewBox="0 0 500 160"><defs><linearGradient id="line" x1="0" x2="1"><stop stop-color="#21b8d5"/><stop offset=".5" stop-color="#f2ae35"/><stop offset="1" stop-color="#f35f39"/></linearGradient></defs><path d="M0 123 C60 120 70 95 120 102 S180 125 225 81 S290 48 330 61 S410 29 500 34" fill="none" stroke="url(#line)" stroke-width="8" stroke-linecap="round"/><circle cx="500" cy="34" r="9" fill="#f35f39"/></svg><span>HOT</span></div></article>
+        <article class="feature reveal"><span class="number">02</span><h3>Understand your screen time</h3><p>Review today and the last seven days, see your most-used apps, and set a daily limit with repeat movement-break reminders.</p><div class="bars" aria-hidden="true"><i style="height:45%"></i><i style="height:72%"></i><i style="height:56%"></i><i style="height:88%"></i><i style="height:62%"></i><i style="height:78%"></i><i style="height:52%"></i></div></article>
+        <article class="feature accent-feature reveal"><span class="number">03</span><h3>Your data stays yours</h3><p>Health readings, history, preferences, and Usage Access calculations remain on the device. No HeatoMeter account is required.</p><div class="privacy-mark" aria-hidden="true">⌁<span>ON DEVICE</span></div></article>
+      </div>
+    </section>
+
+    <section class="section insights" id="insights">
+      <div class="section-heading centered reveal"><p class="eyebrow">Premium intelligence</p><h2>Two deeper ways to<br><span>understand your phone.</span></h2></div>
+      <div class="insight-grid">
+        <article class="insight-card reveal"><div class="premium-tag">PREMIUM</div><img src="assets/screenshots/12-phone-health-check.png" alt="Phone Health Check screen"><div class="insight-copy"><span class="icon-box">♥</span><h3>Phone Health Check</h3><p>A single health score combines available thermal, battery-status, charging, capacity, temperature-trend, and screen-time signals.</p><div class="chips"><span>Service guidance</span><span>Battery replacement</span><span>Power-off decision</span></div></div></article>
+        <article class="insight-card reveal"><div class="premium-tag">PREMIUM</div><img src="assets/screenshots/13-optimization-center.png" alt="Optimization Center screen"><div class="insight-copy"><span class="icon-box">⚡</span><h3>Optimization Center</h3><p>Prioritized recommendations with evidence, direct links to relevant Android controls, and a guided five-minute cool-down timer.</p><div class="chips"><span>Thermal headroom</span><span>Direct actions</span><span>Heat patterns</span></div></div></article>
+      </div>
+      <p class="medical-note reveal">HeatoMeter provides informational guidance from signals Android makes available. It cannot inspect physical damage, measure remaining battery lifespan, or replace qualified manufacturer diagnostics.</p>
+    </section>
+
+    <section class="section gallery-section" id="screens">
+      <div class="gallery-head reveal"><div><p class="eyebrow">Inside HeatoMeter</p><h2>One clear view<br><span>at a time.</span></h2></div><div class="gallery-controls"><button id="gallery-prev" aria-label="Previous screenshot">←</button><button id="gallery-next" aria-label="Next screenshot">→</button></div></div>
+      <div class="gallery" id="gallery" tabindex="0" aria-label="HeatoMeter screenshots">
+        <figure><img src="assets/screenshots/01-dashboard.png" alt="Dashboard"><figcaption><b>01</b> Dashboard</figcaption></figure>
+        <figure><img src="assets/screenshots/02-menu.png" alt="Main menu"><figcaption><b>02</b> Menu</figcaption></figure>
+        <figure><img src="assets/screenshots/03-settings.png" alt="Settings"><figcaption><b>03</b> Settings</figcaption></figure>
+        <figure><img src="assets/screenshots/05-device-info.png" alt="Device information"><figcaption><b>04</b> Device Info</figcaption></figure>
+        <figure><img src="assets/screenshots/06-temperature-guide.png" alt="Temperature guide"><figcaption><b>05</b> Temperature Guide</figcaption></figure>
+        <figure><img src="assets/screenshots/07-about.png" alt="About HeatoMeter"><figcaption><b>06</b> About</figcaption></figure>
+        <figure><img src="assets/screenshots/09-release-version-2-1.png" alt="Release notes"><figcaption><b>07</b> What's New</figcaption></figure>
+        <figure><img src="assets/screenshots/11-menu-health-insights.png" alt="Health and Insights menu"><figcaption><b>08</b> Health & Insights</figcaption></figure>
+        <figure><img src="assets/screenshots/12-phone-health-check.png" alt="Phone Health Check"><figcaption><b>09</b> Phone Health Check</figcaption></figure>
+        <figure><img src="assets/screenshots/13-optimization-center.png" alt="Optimization Center"><figcaption><b>10</b> Optimization Center</figcaption></figure>
+        <figure><img src="assets/screenshots/14-daily-health-center.png" alt="Daily Health Center"><figcaption><b>11</b> Daily Health Center</figcaption></figure>
+        <figure><img src="assets/screenshots/15-temperature-trend.png" alt="Temperature Trend"><figcaption><b>12</b> Temperature Trend</figcaption></figure>
+        <figure><img src="assets/screenshots/16-screen-time-trend.png" alt="Screen Time Trend"><figcaption><b>13</b> Screen Time Trend</figcaption></figure>
+        <figure><img src="assets/screenshots/17-monitor-apps.png" alt="Monitor Apps"><figcaption><b>14</b> Monitor Apps</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section play-section" id="play-info">
+      <div class="play-card reveal">
+        <div class="play-copy"><p class="eyebrow">Google Play information</p><h2>Designed for modern Android.<br><span>Transparent by default.</span></h2><p>HeatoMeter is being prepared for Google Play. Availability, final pricing, and subscription offers will be shown in the store listing when published.</p><div class="play-facts"><div><small>APP</small><strong>HeatoMeter</strong></div><div><small>CATEGORY</small><strong>Tools</strong></div><div><small>VERSION</small><strong>2.1.0</strong></div><div><small>ANDROID</small><strong>6.0 and newer</strong></div><div><small>PACKAGE</small><strong>com.app.heatometer</strong></div><div><small>BUSINESS MODEL</small><strong>Ads + optional Premium</strong></div></div></div>
+        <div class="plans"><article><span>FREE</span><h3>Core monitoring</h3><ul><li>Dashboard and trends</li><li>Device information</li><li>Alerts and widget</li><li>Consent-managed ads</li></ul></article><article class="premium-plan"><span>PREMIUM</span><h3>Deeper insights</h3><ul><li>Everything in Free</li><li>Phone Health Check</li><li>Optimization Center</li><li>Ad-free experience</li></ul><p>Monthly or annual via Google Play. Annual plan intended to include a 20% saving. Store pricing and applicable taxes are displayed by Google Play.</p></article></div>
+      </div>
+      <div class="disclosure-grid reveal"><article><h3>Optional Usage Access</h3><p>Used locally for screen-time totals, charts, foreground-app rankings, reminders, and contextual guidance. HeatoMeter excludes its own package from these calculations.</p></article><article><h3>Advertising & consent</h3><p>The free plan uses Google Mobile Ads. Where required, consent choices are presented through Google’s consent tools. Premium removes ads.</p></article><article><h3>Reading accuracy</h3><p>Battery temperature is not room temperature. Available readings and capacity estimates depend on what Android and the device manufacturer expose.</p></article></div>
+    </section>
+
+    <section class="section faq-section"><div class="section-heading reveal"><p class="eyebrow">Good to know</p><h2>Questions,<br><span>answered clearly.</span></h2></div><div class="faq-list">
+      <details class="reveal"><summary>Does HeatoMeter upload my health or screen-time data?<span>+</span></summary><p>No. Battery readings, temperature history, preferences, and Usage Access calculations remain on your device. Google services are used for consent-managed advertising and Play Billing.</p></details>
+      <details class="reveal"><summary>Can it measure room temperature?<span>+</span></summary><p>Battery temperature is not ambient room temperature. If a phone has a dedicated ambient-temperature sensor, HeatoMeter identifies it separately; most phones do not include one.</p></details>
+      <details class="reveal"><summary>Can it prove which app caused overheating?<span>+</span></summary><p>No. Foreground activity near a heat reading is timing correlation, not proof that an app caused heat or exact per-app battery consumption.</p></details>
+      <details class="reveal"><summary>How do subscriptions work?<span>+</span></summary><p>Premium is optional and offered through Google Play with monthly and annual plans. Google Play displays the purchaser’s billing currency, applicable taxes, renewal terms, and cancellation controls.</p></details>
+    </div></section>
+
+    <section class="closing reveal"><img src="assets/icon-512.png" alt="" width="84" height="84"><p class="eyebrow">Stay informed. Stay cooler.</p><h2>A healthier view of<br>your Android phone.</h2><button class="play-button" type="button" disabled aria-label="HeatoMeter is coming soon to Google Play"><svg viewBox="0 0 28 31" aria-hidden="true"><path fill="#00d6ff" d="M1.2 1.5 16.4 15 1.1 29.5c-.7-.7-1.1-1.8-1.1-3V4.4c0-1.2.4-2.2 1.2-2.9Z"/><path fill="#00f076" d="m16.4 15 4.8-4.3L5.1.9C3.5 0 2.2.2 1.2 1.5L16.4 15Z"/><path fill="#ffd400" d="m16.4 15 4.8 4.3-16.1 9.8c-1.6 0-3-.2-4-1.6L16.4 15Z"/><path fill="#ff4054" d="m21.2 10.7 5 3c1.8 1 1.8 2.6 0 3.6l-5 3-4.8-4.3 4.8-4.3Z"/></svg><span><small>Coming soon on</small>Google Play</span></button></section>
+  </main>
+
+  <footer><a class="footer-brand" href="#top" aria-label="HeatoMeter — back to top"><img src="assets/icon-512.png" alt="" width="34" height="34"><strong>HeatoMeter</strong></a><div class="footer-links"><a href="mailto:HeatoMeter%20%3Cheatometer%40krishnachandra.com%3E">Contact</a><a href="heatometer-privacy-policy.html">Privacy Policy</a><a href="#insights">Subscriptions</a></div><p>Developer and Owner: <a href="https://krishnachandra.com" target="_blank" rel="noopener noreferrer">Krishna Chandra</a><br>© 2026 krishnachandra.com. All rights reserved.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

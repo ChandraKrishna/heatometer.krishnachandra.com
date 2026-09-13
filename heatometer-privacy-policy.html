@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Privacy Policy and service disclosures for the HeatoMeter Android app.">
+  <meta name="author" content="Krishna Chandra">
+  <link rel="canonical" href="https://chandrakrishna.github.io/HeatoMeterWebsite/heatometer-privacy-policy.html">
+  <title>HeatoMeter Privacy Policy</title>
+  <style>
+    :root{color-scheme:light dark;--bg:#faf8f4;--card:#fff;--text:#25211f;--muted:#655d58;--accent:#d85c32;--line:#ddd4cd}
+    @media(prefers-color-scheme:dark){:root{--bg:#171717;--card:#232323;--text:#f8f5f0;--muted:#d2c9c2;--accent:#f0784d;--line:#3b3734}}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.62 system-ui,-apple-system,Segoe UI,sans-serif}
+    main{max-width:860px;margin:auto;padding:32px 20px 64px}article{background:var(--card);padding:clamp(22px,5vw,48px);border:1px solid var(--line);border-radius:18px}
+    h1{margin-top:0;font-size:clamp(2rem,6vw,3rem)}h2{margin-top:2rem;font-size:1.35rem}h3{font-size:1.05rem}a{color:var(--accent)}.meta,.note{color:var(--muted)}.notice{border-left:4px solid var(--accent);padding:.4rem 1rem;background:color-mix(in srgb,var(--accent) 8%,transparent)}code{overflow-wrap:anywhere}
+  </style>
+</head>
+<body><main><article>
+  <h1>HeatoMeter Privacy Policy</h1>
+  <p class="meta"><strong>Effective and last updated:</strong> 13 September 2026</p>
+  <p>This policy describes how HeatoMeter (the “App”), developed and owned by Krishna Chandra (the “Developer and Owner”), accesses, uses, stores, and protects information. It applies to the Android package <code>com.app.heatometer</code>. No HeatoMeter account is required.</p>
+
+  <h2>1. Summary</h2>
+  <ul><li>Battery, thermal, health, and optional Usage Access analysis is performed on the device.</li><li>The Developer does not operate a monitoring or analytics server and does not sell local health or usage records.</li><li>The free plan uses Google Mobile Ads and Google's consent platform. Premium removes in-app ads while active.</li><li>Subscriptions are processed by Google Play Billing.</li><li>Support email is sent only through an external email app after the user reviews it.</li></ul>
+
+  <h2>2. Battery, device, and thermal information</h2>
+  <p>The App may read battery temperature, level, charging state, power source, voltage, Android battery-health value, charge counter, estimated current, manufacturer, model, Android version, processor or architecture, sensor availability, Android thermal state, and thermal headroom where available. These signals provide the dashboard, histories, alerts, widget, summaries, capacity estimates, Phone Health Check, and Optimization Center.</p>
+  <p>Battery temperature is not room, weather, body, or medical temperature. An ambient reading is shown only when Android reports a dedicated sensor. Availability and accuracy depend on hardware, firmware, Android, and manufacturer implementation.</p>
+
+  <h2>3. Optional Usage Access and self-exclusion</h2>
+  <p>If the user grants Android Usage Access, HeatoMeter queries foreground events, package names, and durations to calculate current-day screen time, Today and seven-day charts, most-used apps, notification totals, configurable movement-break reminders, and local contextual comparisons near temperature readings. This does not reveal exact per-app battery consumption, and correlation does not prove causation.</p>
+  <div class="notice"><strong>HeatoMeter self-exclusion:</strong> the package <code>com.app.heatometer</code> is excluded from every usage-derived total, ranking, chart, summary, notification, break-limit calculation, heat correlation, Phone Health result, and Optimization Center result. This prevents time spent inspecting the monitoring app from inflating the behavior being reported.</div>
+  <p>Usage Access is optional and may be revoked in Android Settings. Android usage events can be delayed, incomplete, duplicated, or modified by the device manufacturer, so results are estimates.</p>
+
+  <h2>4. Local storage and retention</h2>
+  <p>Private preferences store settings, thresholds, charging counters, and reminder timestamps. A private SQLite database stores downsampled battery-temperature history—approximately one sample per minute—for up to seven days. A sample may contain battery percentage, Android thermal state, and, only with Usage Access, the foreground package active near the sample. Screen-time history is normally queried from Android when needed rather than copied into a separate long-term database. Android backup and device transfer are disabled, subject to system behavior.</p>
+
+  <h2>5. Advertising and consent</h2>
+  <p>The free plan displays consent-managed Google Mobile Ads, including banner and app-open formats. Depending on region, consent, device controls, and Google's configuration, Google and advertising partners may collect or share IP address, approximate location inferred from IP, app interactions, diagnostics, advertising ID, app-set ID, and other device/account identifiers for advertising, analytics, security, and fraud prevention. HeatoMeter does not provide local battery history or Usage Access records to personalize ads.</p>
+  <p>Google's User Messaging Platform requests applicable choices and prevents ad requests until it reports that ads may be requested. European-regulation and applicable US-state messages are managed through AdMob. The App exposes <strong>Ad Privacy Choices</strong> when Google reports that a privacy-options form is required. Refusing consent may cause non-personalized or limited ads, or no eligible ad.</p>
+
+  <h2>6. Premium subscriptions</h2>
+  <p>Premium is optional. It unlocks Phone Health Check and Optimization Center and removes in-app advertising while the entitlement is active. Monthly and annual subscriptions are purchased through Google Play and automatically renew unless cancelled before renewal. The Google Play checkout screen controls the binding localized price, currency, taxes, billing period, eligibility, trial or offer, and renewal terms.</p>
+  <p>Google Play may process product IDs, purchase tokens, transaction and subscription status, billing country/region, diagnostics, and fraud-prevention information. The Developer does not receive full payment-card details. Pending, expired, revoked, refunded, suspended, or unverifiable purchases may not provide Premium. Users can restore purchases or open Google Play subscription management from the App. Deleting the App does not cancel a subscription. Refunds, grace periods, account holds, cancellations, and statutory rights follow Google Play policy and applicable law.</p>
+
+  <h2>7. Permissions and background behavior</h2>
+  <p>The App may use Internet and network state for ads, consent, and billing; notifications; a user-enabled foreground service with an ongoing notification; Android battery, charging, sensor, and thermal APIs; optional Usage Access; and the system document picker for an email attachment. It does not currently request precise location, contacts, camera, microphone, overlay, broad storage access, or account credentials. Android may delay, group, suppress, or stop background work, so alert timing is not guaranteed.</p>
+
+  <h2>8. Feedback, attachments, and correspondence</h2>
+  <p>Query or Feedback prepares an email to <a href="mailto:heatometer@krishnachandra.com">heatometer@krishnachandra.com</a> in a user-selected email app. The user chooses whether to send it and can review the recipient, subject, diagnostic footer, text, and optional attachment. HeatoMeter does not access mailbox credentials, send mail in the background, or retain the chosen attachment after handoff. Email providers process sent content under their policies. Support correspondence may be retained as reasonably necessary to respond, prevent abuse, maintain records, or comply with law. Do not send unnecessary sensitive data.</p>
+
+  <h2>9. User choices and deletion</h2>
+  <p>Users can deny or revoke Usage Access, manage notification and advertising privacy choices, change thresholds, decline email, clear App storage, or uninstall. Clearing storage or uninstalling deletes HeatoMeter's private preferences and database, but cannot delete Android's usage records, provider-held email, Google billing/advertising records, or previously exported information.</p>
+
+  <h2>10. Security, children, and international processing</h2>
+  <p>The App uses Android sandboxing and private storage, but no system or electronic communication is completely secure. HeatoMeter is a general-audience utility and is not specifically directed to children. Parents should supervise children's device use and email. Google services and user-selected email providers may process information in other countries under their policies and applicable safeguards.</p>
+
+  <h2>11. Accuracy and safety</h2>
+  <p>All readings, scores, estimates, trends, service decisions, replacement suggestions, and power-off guidance are informational and may be unavailable, delayed, rounded, or inaccurate. The App cannot inspect physical damage or remaining component life and is not a medical, emergency, electrical-safety, diagnostic, or manufacturer-authorized repair tool. If a device is swollen, damaged, unusually hot, emitting odor or smoke, or otherwise unsafe, stop using and charging it when safe, follow manufacturer guidance, and seek qualified help.</p>
+
+  <h2>12. Third parties, legal requests, and changes</h2>
+  <p>Google Play services, Google Play Billing, Google Mobile Ads, Google's User Messaging Platform, Android system screens, and user-selected email/document apps have separate terms and privacy policies. Because normal monitoring data is not received by the Developer, it ordinarily cannot be disclosed by the Developer. Voluntarily emailed information may be disclosed when legally required or reasonably necessary to address fraud, abuse, security threats, or harm.</p>
+  <p>This policy may change with the App, law, SDK behavior, or platform requirements. The updated date identifies the current version. Material changes will be reflected in the App and hosted policy as required. Acknowledging this policy does not waive legal rights or replace explicit consent where required.</p>
+
+  <h2>13. Contact</h2>
+  <p><strong>Developer and Owner:</strong> Krishna Chandra<br><strong>Privacy and support email:</strong> <a href="mailto:heatometer@krishnachandra.com">heatometer@krishnachandra.com</a><br><strong>App:</strong> HeatoMeter<br><strong>Package:</strong> <code>com.app.heatometer</code></p>
+  <h2>14. Copyright and reserved rights</h2>
+  <p>© 2026 krishnachandra.com. All rights reserved. HeatoMeter, its original content, branding, documentation, and software are protected by applicable intellectual-property laws and licences. Third-party products, SDKs, names, and marks remain the property of their respective owners. Nothing in this policy restricts rights granted by an applicable open-source licence or non-waivable law.</p>
+  <p class="note">This policy describes current practices and does not limit non-waivable rights under applicable law.</p>
+</article></main></body></html>

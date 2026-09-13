@@ -1,0 +1,15 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local development output
+node_modules/
+dist/
+*.log
+.env
+.env.*
+!.env.example
