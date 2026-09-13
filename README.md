@@ -22,11 +22,11 @@ JavaScript. It can be served directly from the repository root by GitHub Pages.
 
 1. Push the `main` branch to GitHub.
 2. Open the repository's **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the `main` branch and `/ (root)`, then save.
+3. Under **Build and deployment**, choose **GitHub Actions** as the source.
 
-GitHub will publish the site at the live-site address above. Updates pushed to
-`main` will be published automatically.
+The included workflow publishes the site at the live-site address above.
+Updates pushed to `main` will be deployed automatically, and a deployment can
+also be started manually from the repository's **Actions** tab.
 
 ## Local preview
 
